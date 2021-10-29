@@ -1,0 +1,279 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSansLight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Y_Spotlight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/Y_Spotlight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.slide1 {
+  width: 100%;
+  height: 700px;
+
+  background-image: url(https://a-static.besthdwallpaper.com/gaewa-goyangi-byeogji-3554x1999-27970_53.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.slide2 {
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+
+.slide2 p {
+  margin: 10px 0px;
+}
+
+.tit {
+  font-size: 25px;
+  font-family: "GmarketSansMedium";
+}
+.sub {
+  font-family: "GmarketSansLight";
+  font-size: 20px;
+}
+
+.slide3 {
+  width: 100%;
+  height: 480px;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide3 .img {
+  width: 60%;
+  height: 480px;
+
+  background-image: url(http://gonylab3.speedgabia.com/gaghouse/img/m/main/3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.slide3 .txt {
+  width: 40%;
+  height: 480px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Y_Spotlight";
+}
+
+.txt .tit {
+  font-size: 30px;
+}
+
+.txt .sub {
+  font-size: 25px;
+  margin: 5px 0px;
+}
+
+.slide4 {
+  width: 100%;
+  height: 450px;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Y_Spotlight";
+}
+
+.txt2 .tit {
+  font-size: 30px;
+}
+
+.txt2 .sub {
+  font-size: 25px;
+  margin: 5px 0px;
+}
+
+.slide4 .txt2 {
+  width: 30%;
+  height: 450px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide4 .img2 {
+  width: 70%;
+  height: 400px;
+
+  background-image: url(http://img.einet.kr/P201809005/home/slider/1.jpg?v=1539917779);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.slide5 {
+  width: 100%;
+  height: 800px;
+
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide5 .img3 {
+  width: 30%;
+  height: 800px;
+
+  background-image: url(https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F99FBF13359B76C3519);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.slide5 .ifm {
+  width: 65%;
+  height: 800px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ifm .img {
+  width: 95%;
+  height: 500px;
+
+  background-image: url(http://shuandtree.com/artfinger/main/main01.jpg);
+  background-size: cover;
+}
+
+.ifm .img2 {
+  width: 95%;
+  height: 300px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.img2 .txt {
+  width: 50%;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 5px 0px;
+}
+
+.img2 .img {
+  width: 50%;
+  height: 290px;
+
+  background-image: url(https://t1.daumcdn.net/cfile/blog/9909C7485D5C9F5A33);
+  background-size: cover;
+}
+
+.slide6 {
+  width: 100%;
+  height: 750px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.box {
+  width: 100%;
+  height: 700px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.5s;
+}
+
+.slide6 .box:hover {
+  background-color: #353535;
+  filter: sepia(50%);
+}
+
+.slide6 .top {
+  width: 100%;
+  height: 220px;
+}
+.slide6 .mid {
+  width: 100%;
+  height: 220px;
+}
+
+.mid .click a {
+  width: 100%;
+  height: 210px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  border-color: white;
+
+  font-family: "GmarketSansLight";
+  font-size: 35px;
+}
+
+.slide6 .btm {
+  width: 100%;
+  height: 220px;
+}
+
+.box div {
+  width: 20%;
+  height: 220px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.box img {
+  width: 95%;
+  height: 200px;
+}

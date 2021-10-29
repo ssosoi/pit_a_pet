@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Cafe24SsurroundAir";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff")
+  font-family: "Yoonwoo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Yoonwoo.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "ImcreSoojin";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff")
+  font-family: "SBAggroB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
     format("woff");
   font-weight: normal;
   font-style: normal;
@@ -19,28 +19,11 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "Yoonwoo";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105@1.1/Yoonwoo.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-.header {
-  width: 100%;
-  height: 400px;
-  background-image: url(https://www.trusens.com/globalassets/education/blog/b1-pet-allergy-relief.jpg?width=1440&height=540);
-  background-size: cover;
-}
-.image {
-  width: 100%;
-  height: 230px;
-}
+
 .hd {
   width: 100%;
-  height: 170px;
+  height: 210px;
   background-color: rgb(255, 255, 255);
-  position: fixed;
 }
 
 .hd .top {
@@ -76,7 +59,8 @@
   justify-content: center;
 }
 .top .log p {
-  font-family: "Cafe24SsurroundAir";
+  font-family: "Yoonwoo";
+  font-size: 25px;
   margin: 0px 10px;
 }
 
@@ -94,43 +78,35 @@
 .middle a {
   width: 45%;
   height: 100px;
-
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: flex-end;
 }
 
 .middle .name {
   width: 55%;
   height: 100px;
-}
-
-.name div:nth-child(1) {
-  width: 55%;
-  height: 30px;
-  color: rgb(108, 125, 129);
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-  font-family: "Yoonwoo";
-  font-size: 33px;
-}
-
-.name a {
-  width: 55%;
-  height: 70px;
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+.name a {
+  width: 55%;
+  height: 100px;
+
+  color: rgb(56, 58, 90);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 
   font-size: 50px;
-  font-family: "ImcreSoojin";
+  font-family: "SBAggroB";
 }
 
 .hd .bottom {
@@ -143,12 +119,21 @@
   align-items: center;
   justify-content: center;
 
-  font-size: 19px;
+  font-size: 17px;
   font-weight: bold;
-  font-family: "Cafe24SsurroundAir";
+  font-family: "IM_Hyemin-Regular";
 }
 
 .bottom a {
-  color: rgb(104, 104, 104);
-  margin: 0px 15px;
+  color: rgb(108, 108, 108);
+  margin: 0px 19px;
+}
+
+.footer {
+  width: 100%;
+  height: 270px;
+
+  background-image: url(https://www.catprotection.com.au/site/wp-content/uploads/2021/05/astrid-banner-v3-v2.jpg);
+  background-size: cover;
+  filter: brightness(0.3);
 }
