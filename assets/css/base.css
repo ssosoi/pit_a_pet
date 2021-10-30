@@ -19,6 +19,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "GowunBatang-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 .hd {
   width: 100%;
@@ -131,9 +138,27 @@
 
 .footer {
   width: 100%;
-  height: 270px;
+  height: 300px;
 
-  background-image: url(https://www.catprotection.com.au/site/wp-content/uploads/2021/05/astrid-banner-v3-v2.jpg);
+  background-image: url(https://en.mini-aussie.ru/upload/information_system_3/0/7/8/item_78/item_78.jpg);
   background-size: cover;
-  filter: brightness(0.3);
+}
+
+.footer .ftxt {
+  width: 100%;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  backdrop-filter: brightness(0.3);
+
+  color: white;
+  font-family: "GowunBatang-Regular";
+  font-size: 30px;
+}
+.ftxt p {
+  margin: 5px 0px;
 }
