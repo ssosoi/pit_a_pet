@@ -5,7 +5,7 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="IE=edge")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Document
-        link(rel="stylesheet", href="/css/style.css")
+        link(rel="stylesheet", href="/css/styles.css")
     body 
         div.header 
             div.hd
@@ -26,17 +26,36 @@ html(lang="en")
                         a(href="/")  Pit_a_pet
                 hr
                 div.bottom
-                    a(href="about") ABOUT
-                    a(href="review") REVIEW
-                    a(href="pet") 분양
-                    a(href="inquiry") 문의
-                    a(href="center") 애견훈련소
-                    a(href="beauty") 미용
+                    a(href="/about") ABOUT
+                    a(href="/review") REVIEW
+                    a(href="/pet") 분양
+                    a(href="/inquiry") 문의
+                    a(href="/center") 애견훈련소
+                    a(href="/beauty") 미용
         div.main
             block main 
+
+        div.about
+            block about
+
+        div.review
+            block review
+
+        div.pet 
+            block pet 
+
+        div.inquiry 
+            block inquiry
+
+        div.center 
+            block center
+
+        div.beauty 
+            block beauty
+
         div.footer
                 div.ftxt
                     p Designed by Jisoyung 
                     p PN. 010-5768-3409
-                    p 공주시 금학동 우금티로 580 민수마이아파 트
+                    p 공주시 금학동 우금티로 580 민수마이아파트
 
