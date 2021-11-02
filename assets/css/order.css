@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+.fade{
+    width: 100%;
+    height: 850px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.slide12 {
+    width: 90%;
+    height: 700px;
+    overflow: hidden;
+
+    margin-bottom:100px;
+}
+
+.slide12 ul {
+    position: relative;
+    height: 100%;
+}
+
+.slide12 li {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+
+    opacity: 0;
+    animation: fade 16s infinite;
+}
+
+.slide12 li:nth-child(1){
+    background-image: url(https://dalkompet.com/wp-content/uploads/2020/02/%EC%9C%A0%EA%B8%B0%EA%B2%AC-%EC%9E%85%EC%96%91-%EC%A0%88%EC%B0%A8-1.jpg);
+    background-size: cover;
+    animation-delay: 0s;
+}
+.slide12 li:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   background-color: white;
+   filter: brightness(0.3);
+
+    animation-delay: 4s;
+ 
+}
+
+.slide12 li:nth-child(3){
+    background-color: wheat;
+    animation-delay: 8s;
+}
+.slide12 li:nth-child(4){
+    background-color: thistle;
+    animation-delay: 12s;
+}
+
+@keyframes fade{
+    0% {opacity: 0;}
+    5% {opacity: 1;}
+    25% {opacity: 1;}
+    30% {opacity: 0;}
+    100% {opacity: 0;}
+   
+}
