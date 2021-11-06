@@ -1,211 +1,203 @@
 @font-face {
-    font-family: "GmarketSansLight";
-    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
-      format("woff");
-    font-weight: normal;
-    font-style: normal;
-  }
-
-.header2{
-    width: 100%;
-    height: 200px;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
+  font-family: "GmarketSansLight";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.header2 a{
-    width: 100px;
-    height: 100px;
+.header2 {
+  width: 100%;
+  height: 200px;
 
-    color: rgb(100, 100, 100);
-    font-size: 20px;
-    font-family: "GmarketSansLight";
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
- 
-    margin: 0px 20px 0px 20px;
+.header2 a {
+  width: 100px;
+  height: 100px;
+
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+  font-family: "GmarketSansLight";
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0px 20px 0px 20px;
 }
 
 .header2 p {
-    color: rgb(182, 182, 182);
-    font-size: 25px;
+  color: rgb(182, 182, 182);
+  font-size: 25px;
 }
 
 .slide7 {
-    width: 100%;
-    height: 700px;
+  width: 100%;
+  height: 700px;
 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.slide8{
-    width: 100%;
-    height: 600px;
+.slide8 {
+  width: 100%;
+  height: 600px;
 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 
-    margin: 70px 0px 70px;
+  margin: 70px 0px 70px;
 }
 
-.slide8 .bimg{
-    width: 80%;
-    height: 500px;
+.slide8 .bimg {
+  width: 80%;
+  height: 500px;
 
-    background-image: url(https://kr-mb.theepochtimes.com/assets/uploads/2021/01/1-1.jpg);
-    background-size: cover;
+  background-image: url(https://kr-mb.theepochtimes.com/assets/uploads/2021/01/1-1.jpg);
+  background-size: cover;
 }
 .bimg .txt {
+  width: 100%;
+  height: 500px;
 
-    width: 100%;
-    height: 500px;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    backdrop-filter: brightness(0.3);;
+  backdrop-filter: brightness(0.3);
 
-    color: white;
-    font-family: "GowunBatang-Regular";
-    font-size: 20px;
- 
+  color: white;
+  font-family: "GowunBatang-Regular";
+  font-size: 20px;
 }
 
-.bimg .txt p{
-    margin: 10px 0px;
+.bimg .txt p {
+  margin: 10px 0px;
 }
 
 .slide9 {
-    width: 100%;
-    height: 600px;
+  width: 100%;
+  height: 600px;
+
+  margin-bottom: 100px;
 }
 
 .slide9 .bimg {
-    width: 100%;
-    height: 600px;
-    
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 600px;
 
+  filter: sepia(0.5);
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide10 {
-    width: 100%;
-    height: 870px;
+  width: 100%;
+  height: 870px;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide10 .bg {
-    width: 50%;
-    height: 850px;
+  width: 50%;
+  height: 850px;
 
-    background-image: url(https://i.pinimg.com/originals/57/4f/22/574f226bf80029314e613de12bfeb2b6.jpg);
-    background-attachment: fixed;
+  background-image: url(https://i.pinimg.com/originals/57/4f/22/574f226bf80029314e613de12bfeb2b6.jpg);
+  background-attachment: fixed;
 
-    font-family: "GowunBatang-Regular";
-
+  font-family: "GowunBatang-Regular";
 }
 
-
 .bg .txt1 {
-    width: 100%;
-    height: 400px;
+  width: 100%;
+  height: 400px;
 
-    color: rgb(70, 65, 58); 
+  color: rgb(70, 65, 58);
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    margin:  5px 0px 5px 0px;
+  margin: 5px 0px 5px 0px;
 
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .txt1 :nth-child(1) {
-    margin-bottom: 50px;
-    font-size: 40px;
-    color: white;
+  margin-bottom: 50px;
+  font-size: 40px;
+  color: white;
 }
 
-.bg .txt2{
-    width: 100%;
-    height: 400px;
-    
+.bg .txt2 {
+  width: 100%;
+  height: 400px;
 
-    color: rgb(235, 235, 235);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    margin:  5px 0px 5px 0px;
+  margin: 5px 0px 5px 0px;
 
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .slide11 {
-    width: 100%;
-    height: 600px;
+  width: 100%;
+  height: 600px;
 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.slide11 .img5{
-    width: 1000px;
-    height: 500px;
+.slide11 .img5 {
+  width: 1000px;
+  height: 500px;
 
-    background-image: url(https://lh3.googleusercontent.com/proxy/8IZA5HQI6nuTP82EMm3pm-u8tJnRkUlMkXzEHvX_df2ovGo-hzVdHqivtkSCtK6JHJ6HHVUOh2xS-HSdADjlhbabAVwrjU80N9mNYVIKi1CIcmhFNILYRGMb8DXY31r3RULrP3P20VjB);
-    background-size: cover;
-    
+  background-image: url(https://cdn.imweb.me/upload/S201807025b39d1981b0b0/5cada7d69cdc5.jpg);
+  background-size: cover;
 }
 
 .img5 .txt {
-    width: 1000px;
-    height: 500px;
+  width: 1000px;
+  height: 500px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
-    backdrop-filter: brightness(0.5);
+  backdrop-filter: brightness(0.5);
 
-    color: white;
-    font-size: 25px;
-    font-family: "GowunBatang-Regular";
+  color: white;
+  font-size: 25px;
+  font-family: "GowunBatang-Regular";
 }
-.img5 .txt p{
-    margin: 5px 0px 5px 0px;
+.img5 .txt p {
+  margin: 5px 0px 5px 0px;
 }
-.img5 .txt p:nth-child(1){
-    font-size: 35px;
+.img5 .txt p:nth-child(1) {
+  font-size: 35px;
 }

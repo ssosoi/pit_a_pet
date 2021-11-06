@@ -17,7 +17,8 @@ html(lang="en")
                     div.log
                         p Log in 
                         p |
-                        p Sign up
+                        a(href="/sign") 
+                             p Sign up
                 hr
                 div.middle
                     a(href="/") 
@@ -29,9 +30,7 @@ html(lang="en")
                     a(href="/about") ABOUT
                     a(href="/review") REVIEW
                     a(href="/pet") 분양
-                    a(href="/inquiry") 문의
-                    a(href="/center") 애견훈련소
-                    a(href="/beauty") 미용
+                    a(href="/center") 애견훈련소&미용
         div.main
             block main 
 
@@ -56,18 +55,15 @@ html(lang="en")
         div.pet 
             block pet 
 
-        div.inquiry 
-            block inquiry
+        div.write
+            block write
 
         div.center 
             block center
 
-        div.beauty 
-            block beauty
-
         div.footer
                 div.ftxt
-                    p Designed by Jisoyung 
+                    p Designed by Jisoyoung 
                     p PN. 010-5768-3409
                     p 공주시 금학동 우금티로 580 민수마이아파트
 
